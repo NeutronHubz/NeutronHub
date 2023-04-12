@@ -1,9 +1,9 @@
 local place = game.PlaceId
-local plr = game.Players.LocalPlayer
+local plr = game.Players
 
 if place == "10704789056" then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/NeutronHubz/NeutronHub/main/Drive%20World.lua"))();
       
       else
-      plr:Kick("Unsupported game")
+      plr.LocalPlayer:Kick("Unsupported game")
 end
