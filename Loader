@@ -5,5 +5,5 @@ if place == "10704789056" then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/NeutronHubz/NeutronHub/main/Drive%20World.lua"))();
       
       else
-      plr.Kick("Unsupported game")
+      plr:Kick("Unsupported game")
 end
