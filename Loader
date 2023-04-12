@@ -1,6 +1,6 @@
 local plr = game.Players
 
-if game.PlaceId == "10704789056" then
+if game.PlaceId == 10704789056 then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/NeutronHubz/NeutronHub/main/Drive%20World.lua"))();
       
       else
